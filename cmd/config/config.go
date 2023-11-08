@@ -11,13 +11,15 @@ import (
 )
 
 type Configuration struct {
-	ExampleConfig string `mapstructure:"EXAMPLE_CONFIG"`
+	BytearkAccessId     string `mapstructure:"BYTEARK_ACCESS_ID"`
+	BytearkAccessSecret string `mapstructure:"BYTEARK_ACCESS_SECRET"`
 }
 
 var (
 	// default values
 	config = Configuration{
-		ExampleConfig: "example config value",
+		BytearkAccessId:     "default BytearkAccessId config value",
+		BytearkAccessSecret: "default BytearkAccessSecret config value",
 	}
 	configOnce sync.Once
 )
