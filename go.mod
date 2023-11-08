@@ -10,6 +10,7 @@ require (
 
 require (
 	github.com/andybalholm/brotli v1.0.5 // indirect
+	github.com/byteark/byteark-sdk-go v0.1.2 // indirect
 	github.com/fsnotify/fsnotify v1.6.0 // indirect
 	github.com/google/subcommands v1.0.1 // indirect
 	github.com/google/uuid v1.3.0 // indirect
@@ -20,6 +21,7 @@ require (
 	github.com/mattn/go-isatty v0.0.19 // indirect
 	github.com/mattn/go-runewidth v0.0.14 // indirect
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
+	github.com/pasztorpisti/qs v0.0.0-20171216220353-8d6c33ee906c // indirect
 	github.com/pelletier/go-toml/v2 v2.0.9 // indirect
 	github.com/philhofer/fwd v1.1.2 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
