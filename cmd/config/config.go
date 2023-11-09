@@ -13,6 +13,7 @@ import (
 type Configuration struct {
 	BytearkAccessId     string `mapstructure:"BYTEARK_ACCESS_ID"`
 	BytearkAccessSecret string `mapstructure:"BYTEARK_ACCESS_SECRET"`
+	BytearkHlsUrl       string `mapstructure:"BYTEARK_HLS_URL"`
 }
 
 var (
@@ -20,6 +21,7 @@ var (
 	config = Configuration{
 		BytearkAccessId:     "default BytearkAccessId config value",
 		BytearkAccessSecret: "default BytearkAccessSecret config value",
+		BytearkHlsUrl:       "default BytearkHlsUrl config value",
 	}
 	configOnce sync.Once
 )
